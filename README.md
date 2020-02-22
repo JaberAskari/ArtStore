@@ -152,7 +152,7 @@ In the table below is listed all the requirement which are not implemented in th
 
 Front end React js class diagram: <br><br>
 
-![](/Images/uc.png)
+![](/Images/cd.png)
 
 
 # Connecting React js to Laravel
