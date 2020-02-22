@@ -6,7 +6,7 @@
 * Version 1.00
 
 ## Link to youtube video
-[![](/images/yt.png)](https://youtu.be/DGaxkOfCbV8)
+[![](/Images/yt.png)](https://youtu.be/DGaxkOfCbV8)
 
 ## Table of contents
 
