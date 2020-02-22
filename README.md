@@ -146,107 +146,13 @@ In the table below is listed all the requirement which are not implemented in th
 
 
 ## General Use Case(Actors, features)
-
-```plantuml
-@startuml
-left to right direction
-skinparam packageStyle rectangle
-actor user
-
-rectangle usecase {
-  user -- (All art's list): NO need to login
-  user -- (Detail page of art) : NO need to login
-  user -- (Register)
-  user -- (login)
-  user -- (Upload art) : to laravel
-  user -- (Home page) : fetching from laravel
-  user -- (Cart)
-  user -- (Setting)
-  user -- (Logout)
- 
-}  
-@enduml
-```
+![](/Images/uc.png)
 
 # Class Diagram
 
 Front end React js class diagram: <br><br>
-```plantuml
-@startuml
 
-class AllCards {
--error
--isLoaded
--items
--componentDidMount ()
--render()
-
-}
-
-class Card{
-    +props.owner
-    +props.imgurl
-    +props.title
-    +props.price
-    +props.description
-    +props.id
-    -render()
-    
-}
-
-class BigCard{
-    +props.artist
-    +props.phone
-    +props.email
-    +props.imgurl
-    +props.title
-    +props.price
-    +props.description
-    -render()
-    
-}
-
-class DetailComponent {
--error
--isLoaded
--items
--componentDidMount ()
--render()
-
-}
-
-
-
-class uploadComponent{
-    -state.title
-    -state.price
-    -state.description
-    -selectedFile
-    -resStatus
-    -imgurl
-    -showimg
-    -selectedFileName
-    -titleHandler()
-    -pricHandler()
-    -descriptionHandler()
-    -fileSelectedHandler()
-    -fileUploadHanler()
-    -render()
- 
-}
-
-
-
-
-
-AllCards --{ Card
-BigCard --> Card
-Card --> DetailComponent
-
-
-@enduml
-```
-
+![](/Images/uc.png)
 
 
 # Connecting React js to Laravel
