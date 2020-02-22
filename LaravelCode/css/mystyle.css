@@ -1,0 +1,96 @@
+
+
+.navbar-brand{
+    color: orangered;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+
+
+.jcard {
+   
+    float: left;
+    widows: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+  }
+
+  
+  .jprice {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .jcard button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:#303030;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .jcard button:hover {
+    color: black;
+  
+    background-color:#ff886e;
+  }
+
+  .jcard a{
+    color :#3a3391;
+    cursor: pointer;
+
+}
+
+
+  .jcard a:hover{
+      color :#ff886e;
+      cursor: pointer;
+
+  }
+
+  .hero-img-welcome{
+    width:100%;
+    height: 500px;
+    background-image: url(http://192.168.43.16/~testi/artstore/public/images/back.jpg);
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    background-size: cover;    
+    background-color: #93c5c4;
+}
+
+
+.hero-img{
+    width:100%;
+    height: 500px;
+    background-image: url(http://192.168.43.16/~testi/artstore/public/images/hobby.jpg);
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    background-size: cover;    
+    background-color: #93c5c4;
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.hero-text h1{
+  font-size: 45px;
+  font-weight: bold;
+}
