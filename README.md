@@ -1,4 +1,4 @@
-# Web-ohjelmointi and Web-palvelin ohjelmointi project
+# Web programming and server programming project
 
 
 * Jaber Askari M2947
@@ -313,16 +313,15 @@ the hardes and most time consuming part of the project was connecting the React 
 
 
 
-# Self Grading
-* Jaber Askar M2947
-* Suggested Garad : 5
-* I graded myself 5 becase I spent around 70-80 hours on the project. Also I did all the requirements for the project. Down there are all the things that I have done in this project:
+# Self evaluation
+
+Below there are all the things that I have done in this project:
     * Getting data from Mysql database
     * Inserting Data to Mysql databse
-    * Using Json and converting it to usabele data
-    * Sending data to from React or Laravel server as a http post resquest 
-    * Sending json data from Laravel to React js
-    * Getting Data from API in React 
+    * Using Json and converting it to usabele data for communicating between back end and front end
+    * Sending data from React to Laravel server as a http post resquest 
+    * Sending json response data from Laravel to React js
+    * Created a rest API 
 
    
 
