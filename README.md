@@ -298,7 +298,7 @@ class ReactController extends Controller
 ## Bugs and Problems
 * When a user creates a new account the home page will show a error. It is because the user still dose not have any art so when the data is fetched from server it would be
     empty so it will show an error.
-* Wher uploading a big image maybe like 5mb. the server gives an error.
+* When uploading a big image maybe like 5mb. the server gives an error.
 
 ## Future Improvements
 
@@ -309,7 +309,7 @@ Also I should add another user type like Admin that can manage the web applicati
 # What I have learned and challenges
 
 This project took me about 70-80 hours and I have done it entirely alone. In this project I worked alot with API, Json, Mysql databse, Laravel, React and bootstrap.
-the hardes and most time consuming part of the project was connecting the React and Laravel together that they could talk to each other and send data. 
+the hardest and most time consuming part of the project was connecting the React and Laravel together that they could talk to each other and send data. 
 
 
 
